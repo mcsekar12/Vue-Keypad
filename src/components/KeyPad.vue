@@ -1,6 +1,6 @@
 <template>
-<div>
-
+<div class="keypad">
+<div>Keypad App</div>
 <table id="phone">
     <tr>
         <td colspan="3">
@@ -132,5 +132,9 @@ clearInterval(this.cycle);
 }
 button span {
   pointer-events: none;
+}
+#phone {
+  padding-top: 50px;
+  margin: 0 auto;
 }
 </style>
